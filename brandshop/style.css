@@ -36,7 +36,7 @@ header nav li {
 }
 
 header nav a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding-right: 2rem;
     
@@ -57,9 +57,46 @@ main {
     margin-bottom: 1rem;
     margin-left: 1rem;
     margin-top: 40;
+    max-height: 50%;
 }
 
 video {
     width: 100%;
 }
 
+svg {
+    padding-right: 1rem;
+}
+
+.searchbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 1.5rem;
+    max-width: 40rem;
+    height: inherit;
+    margin: 0.5rem auto;
+}
+
+.button {
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: calc(3rem - 7px);
+    height: calc(3rem - 7px);
+    padding: 0;
+    border: 0;
+    margin: 1px;
+    margin-right: calc(0.5rem + 3px);
+    color: #0000a4;
+    cursor: pointer;
+}
+
+.search {
+    border: 0;
+    margin-left: 2rem;
+}
