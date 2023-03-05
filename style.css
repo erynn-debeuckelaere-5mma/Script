@@ -1,11 +1,11 @@
 body {
-    background-image: url(https://jooinn.com/images/underwater-1.png) ;
+    background-image: url(https://jooinn.com/images/underwater-1.png);
     color: MidnightBlue;
-    font-size:75%;
+    font-size: 75%;
     font-family: 'arial';
     letter-spacing: 0.1ch;
     line-height: 1.6;
-  }
+}
 
 
 
@@ -29,22 +29,19 @@ body {
 }
 
 header {
-    background-image: linear-gradient(
-        hsla(0, 0%, 100%, 0.8),
-        hsla(0, 0%, 100%, 0.5)
-      ),
-      url("http://31.media.tumblr.com/tumblr_m7ag8ilcnN1rbvxn3o1_500.gif");
+    background-image: linear-gradient(hsla(0, 0%, 100%, 0.8),
+            hsla(0, 0%, 100%, 0.5)),
+        url("http://31.media.tumblr.com/tumblr_m7ag8ilcnN1rbvxn3o1_500.gif");
     background-size: cover;
     background-position: center;
     text-align: center;
     letter-spacing: 0.5ch;
     padding: 1em 0;
     font-family: Bradley Hand ITC;
-    font-size: 20
-;
-  }
+    font-size: 20;
+}
 
-  #flexbox {
+#flexbox {
     display: flex;
     padding: 50px;
     margin: 10%;
@@ -63,15 +60,19 @@ div.col {
 }
 
 footer {
-   
+
     margin: auto;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.141);
     text-align: center;
-    
+
 
 }
 
-.register a:link{
-    color:#FFFFFF;
+.register a {
+    color: #FFFFFF;
+}
+
+.register a:hover {
+    color: rgb(0, 255, 234);
 }
