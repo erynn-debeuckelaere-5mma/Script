@@ -9,10 +9,7 @@ body {
     font-family: sans-serif;
 }
 
-img {
-    display: block;
-    width: 20%;
-}
+
 
 .flex-container {
     display: flex;
@@ -44,6 +41,8 @@ header nav a {
 
 header img {
     width: 200px;
+    display: block;
+    height: 60;
 }
 
 main {
@@ -54,7 +53,7 @@ main {
 
 .videoframe {
     overflow: hidden;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     margin-left: 4rem;
     margin-right: 4rem;
     margin-top: 2rem;
@@ -100,4 +99,49 @@ svg {
 .search {
     border: 0;
     margin-left: 2rem;
+}
+
+.flex-container-category {
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.price {
+    display: inline-block;
+    padding: 0 0.25rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #f91906;
+    border-radius: 0.25em;
+}
+
+.product-title {
+    display: inline-block;
+    display: -webkit-box;
+    max-height: 3em;
+    overflow: hidden;
+    line-height: 1.5;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #03031a;
+}
+
+.korting {
+    margin-right: 5px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #f91906;
+    text-align: left;
+}
+
+img {
+    display: block;
+    height: 150;
 }
