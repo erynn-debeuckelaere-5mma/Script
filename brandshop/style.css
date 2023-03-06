@@ -47,7 +47,7 @@ header img {
 }
 
 main {
-    background-color: #c5baba;
+    background-color: #ffffff;
     justify-content: center;
 
 }
@@ -55,8 +55,9 @@ main {
 .videoframe {
     overflow: hidden;
     margin-bottom: 1rem;
-    margin-left: 1rem;
-    margin-top: 40;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 2rem;
     max-height: 50%;
 }
 
