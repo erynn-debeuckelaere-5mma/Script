@@ -139,9 +139,20 @@ svg {
     line-height: 1.2;
     color: #f91906;
     text-align: left;
+    margin-bottom: 4rem;
 }
 
 img {
     display: block;
     height: 150;
+    margin-top: 2;
+    margin-bottom: 1rem;
 }
+
+.price-zk {
+    display: inline-block;
+    padding: 0 0.25rem;
+    font-weight: 600;
+    color: #f91906;
+}
+
