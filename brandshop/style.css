@@ -1,158 +1,147 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: rgb(255, 255, 255);
-    color: white;
-    font-family: sans-serif;
+  background-color: rgb(255, 255, 255);
+  color: white;
+  font-family: sans-serif;
 }
 
 
 
 .flex-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2rem;
-    padding-left: 2rem;
-    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding-left: 2rem;
+  
 }
 
 .flex-item {
-    flex: 1;
+  flex: 1;
 }
 
 header {
-    background-color: #0000a4;
+  background-color: #0000a4;
 }
 
 header nav li {
-    display: inline;
+  display: inline;
 }
 
 header nav a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    padding-right: 2rem;
-    
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding-right: 2rem;
+  
 }
 
 header img {
-    width: 200px;
-    display: block;
-    height: 60;
+  width: 200px;
+  display: block;
+  height: 60;
 }
 
 main {
-    background-color: #ffffff;
-    justify-content: center;
+  background-color: #ffffff;
+  justify-content: center;
 
 }
 
 .videoframe {
-    overflow: hidden;
-    margin-bottom: 2rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
-    margin-top: 2rem;
-    max-height: 50%;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 2rem;
+  max-height: 50%;
 }
 
 video {
-    width: 100%;
+  width: 100%;
 }
 
 svg {
-    padding-right: 1rem;
+  padding-right: 1rem;
 }
 
 .searchbar {
-    position: relative;
-    display: flex;
-    align-items: center;
-    background-color: #fff;
-    border-radius: 1.5rem;
-    max-width: 40rem;
-    height: inherit;
-    margin: 0.5rem auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 1.5rem;
+  max-width: 40rem;
+  height: inherit;
+  margin: 0.5rem auto;
 }
 
 .button {
-    background-color: white;
-    position: relative;
-    display: flex;
-    flex-shrink: 0;
-    align-items: center;
-    justify-content: center;
-    width: calc(3rem - 7px);
-    height: calc(3rem - 7px);
-    padding: 0;
-    border: 0;
-    margin: 1px;
-    margin-right: calc(0.5rem + 3px);
-    color: #0000a4;
-    cursor: pointer;
+  background-color: white;
+  position: relative;
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: calc(3rem - 7px);
+  height: calc(3rem - 7px);
+  padding: 0;
+  border: 0;
+  margin: 1px;
+  margin-right: calc(0.5rem + 3px);
+  color: #0000a4;
+  cursor: pointer;
 }
 
 .search {
-    border: 0;
-    margin-left: 2rem;
+  border: 0;
+  margin-left: 2rem;
 }
 
 .flex-container-category {
-    color:black;
-    display: flex;
-    justify-content: space-between;
-    gap: 2rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
+  color:black;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
 }
 
 .price {
-    display: inline-block;
-    padding: 0 0.25rem;
-    font-weight: 600;
-    color: #fff;
-    background-color: #f91906;
-    border-radius: 0.25em;
+  display: inline-block;
+  padding: 0 0.25rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #f91906;
+  border-radius: 0.25em;
 }
 
 .product-title {
-    display: inline-block;
-    display: -webkit-box;
-    max-height: 3em;
-    overflow: hidden;
-    line-height: 1.5;
-    text-overflow: ellipsis;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-    margin-bottom: 0.5rem;
-    font-weight: 600;
-    color: #03031a;
+  display: inline-block;
+  display: -webkit-box;
+  max-height: 3em;
+  overflow: hidden;
+  line-height: 1.5;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #03031a;
 }
 
 .korting {
-    margin-right: 5px;
-    font-weight: 600;
-    line-height: 1.2;
-    color: #f91906;
-    text-align: left;
-    margin-bottom: 4rem;
+  margin-right: 5px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #f91906;
+  text-align: left;
 }
 
 img {
-    display: block;
-    height: 150;
-    margin-top: 2;
-    margin-bottom: 1rem;
+  display: block;
+  height: 150;
 }
-
-.price-zk {
-    display: inline-block;
-    padding: 0 0.25rem;
-    font-weight: 600;
-    color: #f91906;
-}
-
