@@ -130,6 +130,7 @@ svg {
   -webkit-line-clamp: 2;
   margin-bottom: 0.5rem;
   font-weight: 600;
+  font-size: 0.8rem;
   color: #03031a;
 }
 
@@ -144,4 +145,39 @@ svg {
 img {
   display: block;
   height: 150;
+}
+
+figure {
+  position: relative;
+}
+
+.SecTitle {
+  padding-left: 4rem;
+  padding-top: 2rem;
+  display: inline-block;
+  display: -webkit-box;
+  max-height: 3em;
+  overflow: hidden;
+  line-height: 1.5;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  margin-bottom: 0.5rem;
+  font-weight: 900;
+  font-size: 1rem;
+  color: #03031a;
+}
+
+figure {
+  position: relative;
+}
+
+figcaption {
+  position: absolute;
+  bottom: 12%;
+  left: 15%;
+  background-color: #0000a4;
+  color: #fff;
+  border-radius: 0.25em;
+  padding: 0.2rem;
 }
