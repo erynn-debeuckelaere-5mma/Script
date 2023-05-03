@@ -1,0 +1,124 @@
+header img {
+    height: 3rem;
+    color: var(--bgc-01);
+}
+
+@import url("https://use.typekit.net/hfi1kak.css");
+
+:root {
+    --bgc-01: #5FC1CF;
+    --bgc-02: #ECDECE;
+    --bgc-03: #FFFFFF;
+    --txt-01: #005B59;
+    --txt-02: #161615;
+    --txt-03: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 145;
+}
+
+body {
+    background-color: var(--bgc-03);
+    color: var(--txt-01);
+    font-family: "owners-wide", sans-serif;
+    line-height: 1;
+}
+
+header {
+    background-image: url(Footage/frank-mckenna-eXHeq48Z-Q4-unsplash.jpg);
+    background-size: cover;
+    background-position-y: 110mm;
+    color: var(--txt-03);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    padding: 0 1rem;
+}
+
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'javanese text';
+}
+
+.item {
+    justify-self: end;
+}
+
+header nav li {
+    display: inline;
+    padding-right: 1.7rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+
+.grid-card {
+    overflow: hidden;
+    height: 23rem;
+}
+
+img {
+    height: 85%;
+}
+
+.act {
+    position: relative;
+    bottom: 15%;
+    left: 0%;
+    text-align: center;
+    color: var(--txt-03);
+    font-size: 1.5rem;
+}
+
+.venue {
+    text-decoration: none;
+    color: var(--txt-03);
+    position: relative;
+    bottom: 15%;
+    left: 30%;
+}
+
+.date {
+    text-decoration: none;
+    color: var(--txt-03);
+    position: relative;
+    bottom: 15%;
+    left: 30%;
+}
+ :hover {
+    color: var(--bgc-01);
+
+ }
+
+ .line-up {
+    margin-left: 7rem;
+    margin-top: 5rem;
+    font-size: 30px;
+    color: var(--txt-01);
+ }
+
+ .stages {
+    margin-left: 7rem;
+    color: var(--bgc-01);
+    margin-bottom: 0.4rem;
+ }
+
+ h2 {
+    font-family: 'harlow solid';
+    font-size: 25Px;
+ }
+
+ h1 {
+    font-family: 'showcard gothic';
+    font-size: 30;
+    font-weight: 100;
+ }
