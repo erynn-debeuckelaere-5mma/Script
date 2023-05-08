@@ -94,31 +94,63 @@ img {
     bottom: 15%;
     left: 30%;
 }
- :hover {
+
+:hover {
     color: var(--bgc-01);
+}
 
- }
-
- .line-up {
+.line-up {
     margin-left: 7rem;
     margin-top: 5rem;
     font-size: 30px;
     color: var(--txt-01);
- }
+}
 
- .stages {
+.stages {
     margin-left: 7rem;
     color: var(--bgc-01);
     margin-bottom: 0.4rem;
- }
+}
 
- h2 {
+h2 {
     font-family: 'harlow solid';
     font-size: 25Px;
- }
+}
 
- h1 {
+h1 {
     font-family: 'showcard gothic';
     font-size: 30;
     font-weight: 100;
- }
+}
+
+footer img {
+    height: 3rem;
+}
+
+footer {
+    background-image: url(Footage/frank-mckenna-eXHeq48Z-Q4-unsplash.jpg);
+    background-size: cover;
+    background-position-y: 150mm;
+    text-align: center;
+    height: 20rem;
+}
+
+.logo {
+    background-color: var(--bgc-01);
+    padding: 0.5rem;
+}
+
+.icons {
+    background-color: var(--bgc-02);
+    align-items: center;
+    padding: 1rem;
+}
+
+.footer-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 1rem;
+    text-align: left;
+    padding-left: 7rem;
+    color: var(--txt-02);
+}
