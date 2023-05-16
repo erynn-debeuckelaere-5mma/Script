@@ -17,7 +17,7 @@ header img {
 * {
     margin: 0;
     box-sizing: border-box;
-    padding: 145;
+    padding: 0;
 }
 
 body {
@@ -61,13 +61,23 @@ header nav li {
     margin-right: 7rem;
 }
 
+#act .grid-container {
+    grid-template-columns: 1fr 1.5fr 1fr;
+}
+
 .grid-card {
     overflow: hidden;
     height: 23rem;
 }
 
 img {
-    height: 85%;
+    display: block;
+    width: 100%;
+}
+
+#lineup img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
 }
 
 .act {
@@ -95,7 +105,7 @@ img {
     left: 30%;
 }
 
-:hover {
+a:hover {
     color: var(--bgc-01);
 }
 
@@ -124,7 +134,7 @@ h1 {
 }
 
 footer img {
-    height: 3rem;
+    width: 2rem;
 }
 
 footer {
@@ -153,4 +163,9 @@ footer {
     text-align: left;
     padding-left: 7rem;
     color: var(--txt-02);
+}
+
+.grid-item {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
