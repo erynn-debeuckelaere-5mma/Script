@@ -122,6 +122,10 @@ a:hover {
     margin-bottom: 0.4rem;
 }
 
+#act .stages {
+    margin-left: 0rem;
+}
+
 h2 {
     font-family: 'harlow solid';
     font-size: 25Px;
@@ -167,7 +171,7 @@ footer {
 
 .artist-icon {
     display: inline-block;
-    font-size: 4rem;
+    font-size: 2.1rem;
     margin-top: 0.5rem;
 }
 
@@ -193,4 +197,50 @@ footer i {
 .namen {
     font-size: 30px;
     color: var(--txt-01);
+}
+
+header input#burger {
+    display: none;
+}
+
+header label[for="burger"] {
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    display: none;
+    width: 100%;
+    padding: 1rem 1ch;
+    background-color: var(--bgc-02);
+    text-align: right;
+    cursor: pointer;
+}
+
+header label[for="burger"] i {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+@media (width <=750px) {
+    header label[for="burger"] {
+        display: block;
+    }
+
+    header nav ul {
+        position: fixed;
+        z-index: 3;
+        top: 3rem;
+        right: 0;
+        display: none;
+        padding-right: 1ch;
+        width: 100%;
+        background-color: var(--bgc-02);
+        text-align: right;
+        user-select: none;
+    }
+
+    header input#burger:checked+label[for="burger"]+nav ul {
+        display: flex;
+        flex-direction: column;
+    }
 }
