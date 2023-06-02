@@ -247,6 +247,10 @@ header label[for="burger"] i {
     #act .grid-container {
         grid-template-columns: 1fr;
     }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
 }
 
 iframe {
