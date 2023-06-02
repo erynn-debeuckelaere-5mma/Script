@@ -246,5 +246,6 @@ header label[for="burger"] i {
 }
 
 iframe {
-   height: 18rem;
+   height: 70%;
+   width: 100%;
 }
