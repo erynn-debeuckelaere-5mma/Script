@@ -243,9 +243,13 @@ header label[for="burger"] i {
         display: flex;
         flex-direction: column;
     }
+
+    #act .grid-container {
+        grid-template-columns: 1fr;
+    }
 }
 
 iframe {
-   height: 80%;
-   width: 100%;
+    height: 80%;
+    width: 100%;
 }
